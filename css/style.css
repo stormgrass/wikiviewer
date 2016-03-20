@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+/*background: #d9d9d9;*/
+color: #000;
+background: url('../images/books.jpg');
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 50px;
+
+}
+
+.navbar-brand {
+	text-decoration: none;
+}
+
+.navbar-brand a  {
+	text-decoration: none;
+	color: #868686;
+}
+
+.navbar-brand a:hover {
+
+	color: #efefef;
+}
+
+.navbar {
+	-webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.75);
+border-bottom: none;
+color: #404040;
+font-family: Lato;
+}
+
+.theapp {
+	background: rgba(255, 255, 255, 0.8);
+	max-width: 90%;
+	margin: auto;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 10px;
+	/*padding-bottom: 20px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.head {
+background: #404040;
+color: #fff;
+width: 100%;
+margin: auto;
+padding: 15px 20px 20px 20px;
+border-radius: 10px 10px 0 0;
+
+}
+
+h1 {
+	font-family: Josefin Sans;
+	font-size: 10vmin;
+	color: #fff;
+	text-align: center;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1:hover {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.searchbox {
+text-align: center;
+font-family: Lato;
+background: #404040;
+
+}
+
+/*input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}*/
+
+input {
+	-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+	border-radius: 10px;
+	border: none;
+	text-indent: 5px;
+	/*background-color: rgba(255, 255, 255, 1);*/
+	color: #000;
+	margin-right: 5px;
+	text-align: center;
+
+
+}
+
+textarea:focus, input:focus {
+	outline: none;
+	border-color: white;
+	text-align: center;
+	color: #404040;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.movedup {
+	margin-top: 20px 0 0 0;
+}
+
+.inthemiddle {
+	margin: 200px 0 200px 0;
+	background: #404040;
+}
+
+.results {
+	width: 90%;
+	margin: 30px auto;
+	/*padding-left: 20px;*/
+	font-family: Lato;
+	color: #404040;
+
+}
+
+.results a {
+	color: #000;
+
+}
+
+.results a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.singleresult {
+	font-family: Lato;
+
+	padding: 5px 5px 5px 5px;
+	-webkit-box-shadow: 5px #cccccc;
+	box-shadow: 5px #cccccc;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.singleresult h4 {
+
+}
+
+#singleresultheader {
+	font-size: 20px;
+}
+
+.snippet {
+	font: 14px;
+}
+
+
+.secret {
+	text-align: center;
+	/*color: white;*/
+	margin: auto;
+	font-family: Lato;
+}
+
+.credit {
+	width: 90%;
+	color: white;
+	margin: auto;
+	text-align: center;
+	font-family: Lato;
+
+}
